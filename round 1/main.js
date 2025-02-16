@@ -17,10 +17,10 @@ function setCookie(name, value, hours = 5) {
   document.cookie = name + "=" + encodeURIComponent(value) + "; expires=" + now.toUTCString() + "; path=/";
 }
 
-// Redirect to login page if not logged in
-//if (!getCookie("loggedIn")) {
-  //window.location.href = "./login.html";
-//}
+Redirect to login page if not logged in
+if (!getCookie("loggedIn")) {
+  window.location.href = "./login.html";
+}
 
 // Display team name on the webpage
 document.addEventListener("DOMContentLoaded", function () {
