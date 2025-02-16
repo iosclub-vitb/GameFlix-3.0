@@ -27,7 +27,7 @@ teamInfo = {
  
  
  if (getCookie("loggedIn")) {
-   window.location.href = "./submit_code.html";
+   window.location.href = "./index.html";
  }
  
  if (getCookie("savedScore") && !getCookie("submittedScore")) {
