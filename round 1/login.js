@@ -1,7 +1,7 @@
 teamInfo = {
   "iosclub@vitbhopal.ac.in":"BestClub",
   "prakharswarnkar2022@vitbhopal.ac.in": "Chill Guy",
-  "harshita2022@vitvhopal.ac.in":"Cool Dude 69",
+  "harshita2022@vitbhopal.ac.in":"Cool Dude 69",
   "aryanshgupta2022@vitbhopal":"Gay Sex Forever"
  };
  
