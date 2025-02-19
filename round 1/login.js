@@ -69,7 +69,7 @@ teamInfo = {
    if (teamInfo[email]) {
      setCookie("loggedIn", "loggedIn");
      setCookie("loggedTeamName", teamInfo[email]);
-     document.location.href = "../roundsPage/Home.html";
+     document.location.href = "./index.html";
    } else {
      alert(
        "No Team Associated With This E-Mail, Please Log-in With Your Team Laeder's Email"
