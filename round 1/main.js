@@ -8,7 +8,7 @@ counter.up("gameflix3", "teamName").then((res) => {
 });
 
 // Set the counter to a specific value
-counter.set("gameflix", "teamName", Score).then((res) => {
+counter.set("gameflix3", "teamName", Score).then((res) => {
     console.log(res);
 }); 
 
