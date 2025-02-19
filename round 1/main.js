@@ -1,3 +1,19 @@
+import { CounterAPI } from "counterapi.dev";
+
+const counter = new CounterAPI();
+
+// Increment the counter
+counter.up("gameflix3", "teamName").then((res) => {
+    console.log(res);
+});
+
+// Set the counter to a specific value
+counter.set("gameflix", "teamName", Score).then((res) => {
+    console.log(res);
+}); 
+
+
+
 // Function to get a cookie value
 function getCookie(cookieName) {
     var cookiesArray = document.cookie.split("; ");
@@ -62,7 +78,7 @@ async function submitScoreProcess() {
         setCookie("savedScore", Score);
         
         try {
-            await fetch(`https://api.counterapi.dev/v1/ios_unlocked/${teamName}/set?count=${Score}`, {
+            await fetch(`https://api.counterapi.dev/v1/gameflix3/${teamName}/set?count=${Score}`, {
                 method: "GET",
             });
             setCookie("submittedScore", Score);

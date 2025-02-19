@@ -2,7 +2,8 @@ teamInfo = {
   "iosclub@vitbhopal.ac.in":"BestClub",
   "prakharswarnkar2022@vitbhopal.ac.in": "Chill Guy",
   "harshita2022@vitvhopal.ac.in":"Cool Dude 69",
-  "aryanshgupta2022@vitbhopal":"Gay Sex Forever"
+  "aryanshgupta2022@vitbhopal":"Gay Sex Forever",
+  "harshitabaghel2005@gmail.com":"testing"
  };
  
  function getCookie(cookieName) {
