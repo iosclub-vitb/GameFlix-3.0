@@ -1,7 +1,7 @@
 teamInfo = {
   "iosclub@vitbhopal.ac.in":"BestClub",
   "prakharswarnkar2022@vitbhopal.ac.in": "Chill Guy",
-  "harshita2022@vitvhopal.ac.in":"Cool Dude 69",
+  "harshita2022@vitbhopal.ac.in":"Cool Dude 69",
   "aryanshgupta2022@vitbhopal":"Gay Sex Forever",
   "harshitabaghel2005@gmail.com":"testing"
  };
@@ -69,7 +69,7 @@ teamInfo = {
    if (teamInfo[email]) {
      setCookie("loggedIn", "loggedIn");
      setCookie("loggedTeamName", teamInfo[email]);
-     document.location.href = "../roundsPage/Home.html";
+     document.location.href = "./index.html";
    } else {
      alert(
        "No Team Associated With This E-Mail, Please Log-in With Your Team Laeder's Email"
